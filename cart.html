@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>Cart Page</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+
+    <script src="jquery-1.12.4.min.js"></script>
+
+
+</head>
+<style>
+
+html, body {
+  margin: 0;
+  display: table;
+  height: 100%;
+  width: 100%;
+}
+
+.wrapper {
+  padding: 10px;
+  height: auto;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: #F21649;
+    text-align: center;
+    padding: 14px 15px;
+    text-decoration: none;
+    font-family: Arial;
+}
+
+ul:hover {
+  background-color: #333;
+  transition-duration: 0.5s;
+}
+
+li a:hover {
+    color: white;
+    transition-duration: 0.6s;
+}
+
+#contact {
+  float: right;
+}
+
+#cart {
+  color: white;
+  float: right;
+}
+
+#cart:hover {
+  color: #F21649;
+  transition-duration: 0.3s;
+}
+
+h1 {
+  font-family: Georgia;
+  font-size: 40px;
+  font-style: italic;
+}
+
+button {
+  background-color: gray;
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  padding: 14px 60px;
+  font-family: Verdana;
+  float: center;
+}
+
+button:hover {
+  opacity: 0.5;
+}
+
+h2 {
+  text-align: center;
+}
+
+#i {
+  float: right;
+  letter-spacing: 15px;
+  font-size: 22px;
+  color: white;
+}
+
+#i:hover {
+  transition-duration: 0.3s;
+  color: #1476FF;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  display: table-row;
+  font-family: Calibri;
+  font-style: italic;
+  font-size: 15px;
+}
+
+</style>
+<body>
+    <ul>
+        <li id="logo">
+            <a href="#"><img src="https://s-media-cache-ak0.pinimg.com/236x/cf/ea/1c/cfea1cf81b7cc1adf1bf2126aba2cf1c.jpg" style="height:50px;width:50px;border-radius:20px" /></a>
+        </li>
+        <li><a href="#"><b>Mens</b></a></li>
+        <li><a href="#"><b>Womens</b></a></li>
+        <li><a href="#"><b>About</b></a></li>
+        <li id="contact"><a href="#"><b>Contact</b></a></li>
+        <li id="cart"><a href="#"><span class="glyphicon glyphicon-shopping-cart"></span></a></li>
+    </ul>
+
+    <br/>
+
+    <div>
+        <h1>My Cart</h1>
+    </div>
+
+    <hr/>
+
+    <div>
+        <center>
+            <button>Checkout</button>
+        </center>
+    </div>
+
+    <br/>
+
+    <div class="container">
+        <div class="jumbotron">
+            <h2>Cart Empty (0)</h2>
+        </div>
+    </div>
+
+    <div>
+        <center>
+            <button>Checkout</button>
+        </center>
+    </div>
+
+    <hr/>
+
+    <br/>
+
+    <footer>
+      <div class="wrapper">
+        <div>&copy; Store Template 2016</div>
+        <a href="#"><i class="fa fa-facebook-square" id="i"></i></a>
+        <a href="#"><i class="fa fa-instagram" id="i"></i></a>
+        <a href="#"><i class="fa fa-twitter" id="i"></i></a>
+        <div>Created by <a><i>K.P</i></a></div>
+      </div>
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,141 @@
+html, body {
+  margin: 0;
+  display: table;
+  height: 100%;
+  width: 100%;
+}
+
+.wrapper {
+  padding: 10px;
+  height: auto;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: #F21649;
+    text-align: center;
+    padding: 14px 15px;
+    text-decoration: none;
+    font-family: Century Gothic;
+}
+
+ul:hover {
+  background-color: #333;
+  transition-duration: 0.5s;
+}
+
+li a:hover {
+    color: white;
+    transition-duration: 0.6s;
+}
+
+#contact {
+  float: right;
+}
+
+#cart {
+  float: right;
+}
+
+.container {
+  border-top: 2px solid gray;
+  border-bottom: 2px solid gray;
+}
+
+#header {
+  font-family: Georgia;
+  font-size: 65px;
+  text-align: center;
+}
+
+#pic {
+  border-radius: 20px;
+}
+
+.block {
+  height: 400px;
+  width: 980px;
+  transition: all 1.0s ease;
+  transform-style: preserve-3d;
+  text-align: center;
+  margin-left: 17%;
+  margin-top: 2%;
+}
+
+.block:hover {
+  transform: rotateX(180deg);
+}
+
+.front, .back {
+  background: linear-gradient(white, #333);
+  height: 430px;
+  width: 890px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  -moz-backface-visibility: hidden;
+  border-radius: 20px;
+}
+
+.back {
+  transform: rotateX(180deg);
+}
+
+h2 {
+  font-family: Georgia;
+  font-size: 50px;
+}
+
+p {
+  font-family: Arial;
+  font-style:;
+  font-size: 30px;
+  text-align: center;
+}
+
+#button {
+  border: 2px solid white;
+  border-radius: 18px;
+  color: white;
+  font-family: Calibri;
+  font-size: 20px;
+  padding: 15px;
+}
+
+#button:hover {
+  background-color: white;
+  color: black;
+  transition-duration: 0.6s;
+}
+
+#i {
+  float: right;
+  font-size: 20px;
+  color: white;
+  letter-spacing: 10px;
+}
+
+#i:hover {
+  color: #0F6BFF;
+  transition-duration: 0.4s;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  display: table-row;
+  font-family: Calibri;
+  font-style: italic;
+  font-size: 15px;
+}

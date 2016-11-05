@@ -1,0 +1,103 @@
+html, body {
+  margin: 0;
+  display: table;
+  height: 100%;
+  width: 100%;
+}
+
+.wrapper {
+  padding: 10px;
+  height: auto;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: #F21649;
+    text-align: center;
+    padding: 14px 15px;
+    text-decoration: none;
+    font-family: Century Gothic;
+}
+
+ul:hover {
+  background-color: #333;
+  transition-duration: 0.5s;
+}
+
+li a:hover {
+    color: white;
+    transition-duration: 0.6s;
+}
+
+#contact {
+  float: right;
+}
+
+#cart {
+  color: white;
+  float: right;
+}
+
+#cart:hover {
+  color: #F21649;
+  transition-duration: 0.3s;
+}
+
+h1 {
+  font-family: Georgia;
+  font-size: 40px;
+  font-style: italic;
+}
+
+button {
+  background-color: gray;
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  padding: 14px 60px;
+  font-family: Verdana;
+  float: center;
+}
+
+button:hover {
+  opacity: 0.5;
+}
+
+h2 {
+  text-align: center;
+}
+
+#i {
+  float: right;
+  letter-spacing: 15px;
+  font-size: 22px;
+  color: white;
+}
+
+#i:hover {
+  transition-duration: 0.3s;
+  color: #1476FF;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  display: table-row;
+  font-family: Calibri;
+  font-style: italic;
+  font-size: 15px;
+}
