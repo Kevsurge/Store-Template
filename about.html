@@ -1,213 +1,67 @@
 <!DOCTYPE html>
 <html>
-<head>
-
-  <title>About Page</title>
-
-  <!-- Latest compiled and minified CSS -->
-<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-
-<!-- jQuery library -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-
-<!-- Latest compiled JavaScript -->
-<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-
-  <script src="jquery-1.12.4.min.js"></script>
-
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
-
-
-</head>
-<style>
-
-html, body {
-  margin: 0;
-  display: table;
-  height: 100%;
-  width: 100%;
-}
-
-.wrapper {
-  padding: 10px;
-  height: auto;
-}
-
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-}
-
-li {
-    float: left;
-}
-
-li a {
-    display: block;
-    color: #F21649;
-    text-align: center;
-    padding: 14px 15px;
-    text-decoration: none;
-    font-family: Century Gothic;
-}
-
-ul:hover {
-  background-color: #333;
-  transition-duration: 0.5s;
-}
-
-li a:hover {
-    color: white;
-    transition-duration: 0.6s;
-}
-
-#contact {
-  float: right;
-}
-
-#cart {
-  float: right;
-}
-
-.container {
-  border-top: 2px solid gray;
-  border-bottom: 2px solid gray;
-}
-
-#header {
-  font-family: Georgia;
-  font-size: 65px;
-  text-align: center;
-}
-
-#pic {
-  border-radius: 20px;
-}
-
-.block {
-  height: 400px;
-  width: 980px;
-  transition: all 1.0s ease;
-  transform-style: preserve-3d;
-  text-align: center;
-  margin-left: 17%;
-  margin-top: 2%;
-}
-
-.block:hover {
-  transform: rotateX(180deg);
-}
-
-.front, .back {
-  background: linear-gradient(white, #333);
-  height: 430px;
-  width: 890px;
-  position: absolute;
-  top: 0;
-  left: 0;
-  -moz-backface-visibility: hidden;
-  border-radius: 20px;
-}
-
-.back {
-  transform: rotateX(180deg);
-}
-
-h2 {
-  font-family: Georgia;
-  font-size: 50px;
-}
-
-p {
-  font-family: Arial;
-  font-style:;
-  font-size: 30px;
-  text-align: center;
-}
-
-#button {
-  border: 2px solid white;
-  border-radius: 18px;
-  color: white;
-  font-family: Calibri;
-  font-size: 20px;
-  padding: 15px;
-}
-
-#button:hover {
-  background-color: white;
-  color: black;
-  transition-duration: 0.6s;
-}
-
-#i {
-  float: right;
-  font-size: 20px;
-  color: white;
-  letter-spacing: 10px;
-}
-
-#i:hover {
-  color: #0F6BFF;
-  transition-duration: 0.4s;
-}
-
-footer {
-  background-color: #333;
-  color: white;
-  display: table-row;
-  font-family: Calibri;
-  font-style: italic;
-  font-size: 15px;
-}
-
-</style>
-<body>
-  <ul>
-    <li id="logo"><a href="#"><img src="https://s-media-cache-ak0.pinimg.com/236x/cf/ea/1c/cfea1cf81b7cc1adf1bf2126aba2cf1c.jpg" style="height:50px;width:50px;border-radius:20px"/></a></li>
-    <li><a href="#"><b>Mens</b></a></li>
-    <li><a href="#"><b>Womens</b></a></li>
-    <li><a href="#"><b>About</b></a></li>
-    <li id="contact"><a href="#"><b>Contact</b></a></li>
-    <li id="cart"><a href="#"><span class="glyphicon glyphicon-shopping-cart"></span></a></li>
-  </ul>
-
-  <br/>
-
-  <div class="container">
-    <h1 id="header"><i>About</i></h1>
-  </div>
-
-  <br/>
-
-    <div class="block">
-      <div class="front">
-        <img id="pic" src="https://i.ytimg.com/vi/_WZBswgsfEI/maxresdefault.jpg" style="width:890px;height:430px"/>
-      </div>
-      <div class="back">
-        <h2><i>Hi!</i></h2>
-        <p>
-          Write about yourself here!
-        </p>
-        <br/>
-        <a href="#" id="button">Contacts</a>
-      </div>
+  <head>
+  
+    <title>About Page</title>
+    
+    <link rel="stylesheet" type="text/css" href="about.css">
+  
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  
+    <script src="jquery-1.12.4.min.js"></script>
+  
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+  
+  
+  </head>
+  
+  <body>
+    <ul>
+      <li id="logo"><a href="#"><img src="https://s-media-cache-ak0.pinimg.com/236x/cf/ea/1c/cfea1cf81b7cc1adf1bf2126aba2cf1c.jpg" style="height:50px;width:50px;border-radius:20px"/></a></li>
+      <li><a href="#"><b>Mens</b></a></li>
+      <li><a href="#"><b>Womens</b></a></li>
+      <li><a href="#"><b>About</b></a></li>
+      <li id="contact"><a href="#"><b>Contact</b></a></li>
+      <li id="cart"><a href="#"><span class="glyphicon glyphicon-shopping-cart"></span></a></li>
+    </ul>
+  
+    <br/>
+  
+    <div class="container">
+      <h1 id="header"><i>About</i></h1>
     </div>
-
-  <br/>
-
-  <footer>
-    <div class="wrapper">
-      <div>&copy; Store Template 2016</div>
-      <a href="#"><i class="fa fa-facebook-square" id="i"></i></a>
-      <a href="#"><i class="fa fa-instagram" id="i"></i></a>
-      <a href="#"><i class="fa fa-google-plus-square"id="i"></i></a>
-      <div>Created by <a><i>K.P</i></a></div>
-    </div>
-  </footer>
-
-</body>
-
+  
+    <br/>
+  
+      <div class="block">
+        <div class="front">
+          <img id="pic" src="#" style="width:890px;height:430px"/>
+        </div>
+        <div class="back">
+          <h2><i>Hi!</i></h2>
+          <p>
+            Write about yourself here!
+          </p>
+          <br/>
+          <a href="#" id="button">Contacts</a>
+        </div>
+      </div>
+  
+    <br/>
+  
+    <footer>
+      <div class="wrapper">
+        <div>&copy; Store Template 2016</div>
+        <a href="#"><i class="fa fa-facebook-square" id="i"></i></a>
+        <a href="#"><i class="fa fa-instagram" id="i"></i></a>
+        <a href="#"><i class="fa fa-google-plus-square"id="i"></i></a>
+        <div>Created by <a><i>K.P</i></a></div>
+      </div>
+    </footer>
+  
+  </body>
 </html>

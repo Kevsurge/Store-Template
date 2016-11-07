@@ -1,200 +1,74 @@
 <!DOCTYPE html>
 <html>
-<head>
-
-  <title>Contact Page</title>
-
-    <!-- Latest compiled and minified CSS -->
-<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-
-<!-- jQuery library -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-
-<!-- Latest compiled JavaScript -->
-<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-
-  <script src="jquery-1.12.4.min.js"></script>
-
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
-
-</head>
-<style>
-
-html, body {
-  margin: 0;
-  display: table;
-  height: 100%;
-  width: 100%;
-}
-
-.wrapper {
-  padding: 10px;
-  height: auto;
-}
-
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-}
-
-li {
-    float: left;
-}
-
-li a {
-    display: block;
-    color: #F21649;
-    text-align: center;
-    padding: 14px 15px;
-    text-decoration: none;
-    font-family: Century Gothic;
-}
-
-ul:hover {
-  background-color: #333;
-  transition-duration: 0.5s;
-}
-
-li a:hover {
-    color: white;
-    transition-duration: 0.6s;
-}
-
-#contact {
-  float: right;
-}
-
-#cart {
-  float: right;
-}
-
-.container {
-  border-top: 2px solid gray;
-  border-bottom: 2px solid gray;
-}
-
-#header {
-  font-family: Georgia;
-  font-size: 65px;
-  text-align: center;
-}
-
-#pic {
-  float: right;
-  margin-right: 20%;
-}
-
-.block {
-   width: 490px;
-   height: 350px;
-   background: #A2DBFA;
-   overflow: hidden;
-   margin-left: 15%;
-}
-
-.block .border {
-   border: 2px solid black;
-   position: relative;
-   width: 475px;
-   height: 335px;
-   margin: auto;
-   margin-top: 2%;
-
-}
-
-.location {
-  margin-left: 15%;
-}
-
-h3, .p-3 {
-  font-family: Candara;
-  font-style: italic;
-  font-size: 35px;
-  color: black;
-}
-
-p {
-  font-family: Calibri;
-  font-style:;
-  font-size: 20px;
-  color: black;
-}
-
-#i {
-  float: right;
-  font-size: 20px;
-  color: white;
-  letter-spacing: 10px;
-}
-
-#i:hover {
-  color: #0F6BFF;
-  transition-duration: 0.4s;
-}
-
-footer {
-  background-color: #333;
-  color: white;
-  display: table-row;
-  font-family: Calibri;
-  font-style: italic;
-  font-size: 15px;
-}
-
-</style>
-<body>
-  <ul>
-    <li id="logo"><a href="#"><img src="https://s-media-cache-ak0.pinimg.com/236x/cf/ea/1c/cfea1cf81b7cc1adf1bf2126aba2cf1c.jpg" style="height:50px;width:50px;border-radius:20px"/></a></li>
-    <li><a href="#"><b>Mens</b></a></li>
-    <li><a href="#"><b>Womens</b></a></li>
-    <li><a href="#"><b>About</b></a></li>
-    <li id="contact"><a href="#"><b>Contact</b></a></li>
-    <li id="cart"><a href="#"><span class="glyphicon glyphicon-shopping-cart"></span></a></li>
-  </ul>
-
-  <br/>
-
-  <div class="container">
-    <h1 id="header"><i>Contacts</i></h1>
-  </div>
-
-  <br/>
-
-  <div>
-    <img id="pic" src="http://media.gq.com/photos/558453a109f0bee56443aba0/master/pass/style-2012-06-white-suits-white-suits-01.jpg"/>
-  </div>
-
-  <div class="block">
-    <div class="border">
-      <h3>Contact Me</h3>
-      <p>Phone#:</p>
-      <p>E-mail:</p>
-      <p class="p-3">Follow Me</p>
-      <a href="#"><i class="fa fa-facebook-square" id="i"></i></a>
-      <a href="#"><i class="fa fa-instagram" id="i"></i></a>
-      <a href="#"><i class="fa fa-twitter" id="i"></i></a>
+  <head>
+  
+    <title>Contact Page</title>
+    
+    <link rel="stylesheet" type="text/css" href="contact.css">
+  
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  
+    <script src="jquery-1.12.4.min.js"></script>
+  
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+  
+  </head>
+  
+  <body>
+    <ul>
+      <li id="logo"><a href="#"><img src="#" style="height:50px;width:50px;border-radius:20px"/></a></li>
+      <li><a href="#"><b>Mens</b></a></li>
+      <li><a href="#"><b>Womens</b></a></li>
+      <li><a href="#"><b>About</b></a></li>
+      <li id="contact"><a href="#"><b>Contact</b></a></li>
+      <li id="cart"><a href="#"><span class="glyphicon glyphicon-shopping-cart"></span></a></li>
+    </ul>
+  
+    <br/>
+  
+    <div class="container">
+      <h1 id="header"><i>Contacts</i></h1>
     </div>
-  </div>
-
-  <div class="location">
-    <h3>Store Location</h3>
-    <p>300 Washington Ave.</p>
-    <p>New York, NY, 11108</p>
-  </div>
-
-  <br/>
-
-  <footer>
-    <div class="wrapper">
-      <div>&copy; Store Template 2016</div>
-      <a href="#"><i class="fa fa-facebook-square" id="i"></i></a>
-      <a href="#"><i class="fa fa-instagram" id="i"></i></a>
-      <a href="#"><i class="fa fa-google-plus-square"id="i"></i></a>
-      <div>Created by <a><i>K.P</i></a></div>
+  
+    <br/>
+  
+    <div>
+      <img id="pic" src="#"/>
     </div>
-  </footer>
-</body>
+  
+    <div class="block">
+      <div class="border">
+        <h3>Contact Me</h3>
+        <p>Phone#:</p>
+        <p>E-mail:</p>
+        <p class="p-3">Follow Me</p>
+        <a href="#"><i class="fa fa-facebook-square" id="i"></i></a>
+        <a href="#"><i class="fa fa-instagram" id="i"></i></a>
+        <a href="#"><i class="fa fa-twitter" id="i"></i></a>
+      </div>
+    </div>
+  
+    <div class="location">
+      <h3>Store Location</h3>
+      <p>300 Washington Ave.</p>
+      <p>New York, NY, 11108</p>
+    </div>
+  
+    <br/>
+  
+    <footer>
+      <div class="wrapper">
+        <div>&copy; Store Template 2016</div>
+        <a href="#"><i class="fa fa-facebook-square" id="i"></i></a>
+        <a href="#"><i class="fa fa-instagram" id="i"></i></a>
+        <a href="#"><i class="fa fa-google-plus-square"id="i"></i></a>
+        <div>Created by <a><i>K.P</i></a></div>
+      </div>
+    </footer>
+  </body>
 
 </html>
